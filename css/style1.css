@@ -1,0 +1,69 @@
+
+.cab ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+    padding-left: 17%;
+  }
+
+.cab li img{
+    height: 169px;
+    padding: 14x 16px 14px 16px;
+}
+  
+.cab li {
+    float: left;
+  }
+
+.cab li a {
+        color:black;
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        padding: 70px 40px 0px 40px;
+        text-decoration: none;
+}
+
+#link_home{
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: #38879F;
+}
+
+#link_info{
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: #BE315B ;
+}
+
+#link_sobre{
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: #F5C043;
+}
+
+li a:hover:not(.ativo-h, .ativo-i, .ativo-s){
+    font-size: 35px;
+  }
+  
+
+.ativo-h{
+    background-color: #38879fa6;
+}
+
+.ativo-i{
+    background-color: #BE315Ba6;
+}
+
+.ativo-s{
+    background-color: #F5C043a6;
+}
+
+/*Imagem "Você sonha, nós personalizamos"*/
+#sonho{
+    display: block;
+}
