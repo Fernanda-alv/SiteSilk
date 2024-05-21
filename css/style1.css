@@ -1,4 +1,15 @@
+/*FONTE*/
+body{
+    
+}
 
+/*TÍTULO*/
+.titulo{
+    margin-left: 100px;
+}
+
+
+/*CABEÇALHO*/
 .cab ul {
     list-style-type: none;
     margin: 0;
@@ -67,3 +78,50 @@ li a:hover:not(.ativo-h, .ativo-i, .ativo-s){
 #sonho{
     display: block;
 }
+
+/*SUAS IDEIAS*/
+.suas-ideias{
+    background-color: #e5e5e5;
+    margin: 0px 0px 60px 0px;
+}
+
+.suas-ideias h1{
+    margin: 60px;
+    padding-left: 350px;
+    padding-top: 50px;
+}
+
+.suas-ideias button{
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    bottom: 50px;
+}
+
+/*AMOSTRAS*/
+.margin{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*CONTATOS*/
+.contatos{
+    font-weight: bold;
+    padding: 3px 3px 3px 10px;
+    background-color: rgb(56, 135, 159, 0.7)
+}
+
+.instagram{
+    font-weight: bold;
+    padding: 3px 3px 3px 10px;
+    background-color: rgb(190, 49, 91, 0.7);
+}
+
+.celular{
+    font-weight: bold;
+    padding: 3px 3px 3px 10px;
+    background-color: rgb(245, 192, 67, 0.7);
+}
+
