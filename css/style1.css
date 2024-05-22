@@ -1,10 +1,25 @@
-/*FONTE*/
+/*TAGS GLOBAIS*/
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(255, 255, 235);
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 /*UTILITARIOS*/
+
+.sombra-azul{
+    text-shadow: 1px 1px #38879F;
+    font-weight: bolder;
+}
+
+.sombra-magenta{
+    text-shadow: 1px 1px #BE315B;
+    font-weight: bolder;
+}
 
 
 /*TÍTULO*/
@@ -14,15 +29,21 @@ body{
 
 
 /*CABEÇALHO INICIO*/
+
+header{
+    margin: auto;
+    text-align: center;
+}
+
 .cab ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border-style: solid;
-    border-width: 0px 0px 1px 0px;
+    border-width: 0px 0px 0px 0px;
     border-color: black;
-    padding-left: 17%;
+    padding-left: 27%;
   }
 
 .cab li img{
@@ -37,7 +58,7 @@ body{
 .cab li a {
         color:black;
         font-size: 30px;
-        display: block;
+        display: inline-block;
         text-align: center;
         padding: 70px 40px 0px 40px;
         text-decoration: none;
@@ -80,21 +101,22 @@ li a:hover:not(.ativo-h, .ativo-i, .ativo-s){
 
 /*CABEÇALHO FIM*/
 
-/*IMAGEM "VOCÊ SONHA, NÓS PERSONALIZAMOS"*/
-#sonho{
-    display: block;
-}
 
 /*SUAS IDEIAS INICIO*/
 
 .suas-ideias-pai{
-    margin-top: -40px;
+    margin-top: 80px;
+    max-width: 100%;
+    height: auto;
 }
 
 .suas-ideias{
     background-image: url(img/elementos/camiseta-stock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
     height: 600px;
-    margin: 0px 0px 60px 0px;
+    margin: 0px 0px 120px 0px;
     color: rgb(255, 255, 235);
     font-size: 150%;
 }
@@ -103,7 +125,8 @@ li a:hover:not(.ativo-h, .ativo-i, .ativo-s){
     margin-top: 100px;
     padding-left: 200px;
     padding-top: 50px;
-    font-size: 150%;
+    font-size: 200%;
+    text-shadow: 2px 2px #000000
 }
 
 .suas-ideias button{
@@ -115,11 +138,25 @@ li a:hover:not(.ativo-h, .ativo-i, .ativo-s){
     border-color: rgb(255, 255, 235);
     border-width: 2px;
     border-style: solid;
+    text-shadow: 2px 2px #000000
+}
+
+.clique-aqui{
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .clique-aqui:hover{
     color: black;
     background-color: rgb(255, 255, 235, 0.8);
+    text-shadow: 2px 2px rgb(255, 255, 235);
 }
 
 .clique-aqui:after{
@@ -131,19 +168,40 @@ li a:hover:not(.ativo-h, .ativo-i, .ativo-s){
 
 /*SUAS IDEIAS FIM*/
 
-/*ATACADO*/
-.atacado-pai{
-    margin-left: 200px;
-}
-
-
 
 /*AMOSTRAS*/
 .margin{
     margin-top: 30px;
     margin-left: 200px;
     margin-right: 200px;
+    background-color: rgb(255, 255, 235);
 }
+
+/*ATACADO INICIO*/
+.atacado-pai{
+    margin-top: 50px;
+    padding: 10px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.atacado-pai h5{
+    text-align: center;
+}
+
+.atacado-formatacao{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#borda-img{
+    border: 1px solid black;
+    border-radius: 25px
+}
+
+/*ATACADO FIM*/
 
 /*CONTATOS*/
 .contatos{

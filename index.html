@@ -7,22 +7,22 @@
         <title>Casa do Silk</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-            <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="shortcut icon" type="image/x-icon" href="css/img/elementos/log_01.ico"/>
     </head>
 
     <body>
         <div> <!--Cabeçalho INICIO-->
-            
+          <header>
             <div class="cab">
                   <ul id="links_cabeçalho" class="cab">
                       <li class="cab"><img src="css/img/elementos/log_01.png" alt="" id="logo_cab"></li>
                       <li class="cab"><a href="#" id="link_home" class="ativo-h">Home</a></li>
-                      <li class="cab"><a href="Explicacao.html" id="link_info">Informativo</a></li>
-                      <li class="cab"><a href="sobre.html" id="link_sobre">Sobre nós</a></li>
+                      <li class="cab"><a href="explicacao.html" id="link_info">Informativo</a></li>
+                      <li class="cab"><a href="#" id="link_sobre">Sobre nós</a></li>
                   </ul>
-
-        </div> <!--Cabeçalho INICIO-->
-        
+            </div> <!--Cabeçalho INICIO-->
+        </header>
         <!--Precisamos mesmo de uma barra de pesquisa?
         <div id=""> <!BARRA DE PESQUISA>>
           <nav class="navbar bg-body-tertiary">
@@ -35,7 +35,7 @@
         </div>-->
 
       
-        <div><!--Imagem abaixo do cabeçalho (daaaâ)-->
+        <div class="encaixar-tela"><!--Imagem abaixo do cabeçalho (daaaâ)-->
             <img src="css/img/elementos/png_abaixo_cabeçalho.png" alt="">
         </div>
 
@@ -44,7 +44,7 @@
             <div class="suas-ideias">
               <div>
                 <h1>
-                  <br><br><br>
+                  <br><br>
                   As suas ideias, nas suas roupas
                 </h1>
                 <button type="button" onclick="location.href='https://www.instagram.com/casadosilk/'" class="clique-aqui">Quer algo só <strong>seu?</strong><br>Clique aqui para personalizar</button>
@@ -55,91 +55,110 @@
 
 
         <div>
-          <h1 class="titulo">Amostras</h1>
+          <div class="sombra-azul">
+            <h1 class="titulo">Amostras</h1>
+          </div>
+          <div class="sombra-magenta">
           <h3 class="titulo">Um gostinho do que a gente sabe fazer</h3>
+          </div>
         </div>
       
         <div class="margin"> <!--Amostras INICIO-->
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card">
+                <span class="border border-dark">
                 <img src="css/img/mostruario/anime.png" class="card-img-top" alt="...">
+                </span>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Anime</h5>
+                  <p class="card-text">Pra você que quer estampar o seu personagem favorito no peito</p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
+                <span class="border border-dark">
                 <img src="css/img/mostruario/rock-kiss.png" class="card-img-top" alt="...">
+                </span>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text"></p>
+                  <h5 class="card-title">Rock</h5>
+                  <p class="card-text">Pra você que é do rock, ou simplemente gosta de ser trevoso</p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
+                <span class="border border-dark">
                 <img src="css/img/mostruario/terceiro.png" class="card-img-top" alt="...">
+                </span>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Terceirão</h5>
+                  <p class="card-text">Pra você que quer eternizar as memórias do seu ultimo ano de escola</p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
+                <span class="border border-dark">
                 <img src="css/img/mostruario/mandrake.png" class="card-img-top" alt="...">
+                </span>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Mandrake</h5>
+                  <p class="card-text">Pra você que quer ficar bem na fita, tá ligado?</p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
+                <span class="border border-dark">
                 <img src="css/img/mostruario/guerra.png" class="card-img-top" alt="...">
+                </span>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Exército</h5>
+                  <p class="card-text">Pra você que quer demonstrar seu patriotismo, ou só gosta de roupa camuflada mesmo</p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
+                <span class="border border-dark">
                 <img src="css/img/mostruario/catolica.png" class="card-img-top" alt="...">
+                </span>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Religião</h5>
+                  <p class="card-text">Pra você que quer carregar um símbolo da sua religião</p>
                 </div>
               </div>
             </div>
           </div>
         </div><!--Amostras FIM-->
 
+      
       <div class="atacado-pai">
         <div class="atacado"> <!--atacado INICIO-->
             <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="css/img/elementos/log_01.png" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">ATACADO</h5>
-                      <p class="card-text">CONTEÚDO</p>
-                      <p class="card-text"><small class="text-body-secondary"></small></p>
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="css/img/elementos/log_01.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Atacado</h5>
+                    <div class="atacado-formatacao">
+                      <p class="card-text">Vai fazer um evento? Tem uma empresa?<br>É fanático por personalização?<br>A gente te ajuda!<br></p>
                     </div>
+                    <a href="https://www.instagram.com/casadosilk/"><img src="css/img/elementos/botao-wpp.png" alt="" id="borda-img"></a>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
         </div> <!--atacado FIM-->
-      </div>
 
         <div> <!--Contatos INICIO-->
             <div class="contatos">
-                <h6>Contatos</h6>
+                <h6>Contatos:</h6>
             </div>
             <div class="instagram">
                 <h6><a href="https://www.instagram.com/casadosilk/">@casadosilk</a></h6>
