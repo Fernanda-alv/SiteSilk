@@ -11,6 +11,12 @@ img{
 
 /*UTILITARIOS*/
 
+.centralizar{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
 .sombra-azul{
     text-shadow: 1px 1px #38879F;
     font-weight: bolder;
@@ -18,6 +24,11 @@ img{
 
 .sombra-magenta{
     text-shadow: 1px 1px #BE315B;
+    font-weight: bolder;
+}
+
+.sombra-amarela{
+    text-shadow: 1px 1px #F5C043;
     font-weight: bolder;
 }
 
@@ -221,18 +232,18 @@ li a:hover:not(.ativo-h, .ativo-i, .ativo-s){
 
 /*CONTATOS*/
 .contatos{
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 80px;
     font-weight: bold;
     padding: 3px 3px 3px 20px;
-    background-color: rgb(56, 135, 159, 0.7)
+    background-color: rgb(56, 135, 159, 0.8);
 }
 
 .instagram{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
     padding: 3px 3px 3px 20px;
-    background-color: rgb(190, 49, 91, 0.7);
+    background-color: rgba(190, 49, 91, 0.8);
 }
 
 .instagram a{
@@ -241,10 +252,10 @@ li a:hover:not(.ativo-h, .ativo-i, .ativo-s){
 }
 
 .celular{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
     padding: 3px 3px 3px 20px;
-    background-color: rgb(245, 192, 67, 0.7);
+    background-color: rgb(245, 192, 67, 0.8);
 }
 
 /*EXPLICAÇAO*/
@@ -255,5 +266,53 @@ li a:hover:not(.ativo-h, .ativo-i, .ativo-s){
 
 .titulo-explicacao{
     text-align: center;
+    margin-bottom: 30px;
 }
 
+.explicacao-silk{
+    margin: 30px 0px 30px 0px;
+    border-radius: 5000px;
+    background-color: rgb(56, 135, 159, 0.8);
+    display: inline;
+    padding: 50px;
+    font-size: 120%;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(56, 135, 159);
+    float: left;
+}
+
+.explicacao-transfer{
+    margin: 30px 0px 30px 0px;
+    border-radius: 5000px;
+    background-color: rgba(190, 49, 91, 0.8);
+    display: inline;
+    padding: 50px;
+    font-size: 120%;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(190, 49, 91);
+    float: right;
+}
+
+.explicacao-dtf{
+    margin: 30px 0px 30px 0px;
+    border-radius: 5000px;
+    background-color: rgb(245, 192, 67, 0.8);
+    display: inline;
+    padding: 50px;
+    font-size: 120%;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(245, 192, 67);
+    float: left;
+}
+
+#tamanhos{
+    margin: auto;
+    width: 34%;
+}
+
+#tamanhos img{
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
