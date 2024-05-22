@@ -21,6 +21,18 @@ img{
     font-weight: bolder;
 }
 
+.palavra-azul{
+    background-color: rgb(56, 135, 159, 0.8);
+}
+
+.palavra-magenta{
+    background-color: rgb(190, 49, 91, 0.8);
+}
+
+.palavra-amarela{
+    background-color: rgb(245, 192, 67, 0.8);
+}
+
 
 /*TÍTULO*/
 .titulo{
@@ -33,6 +45,8 @@ img{
 header{
     margin: auto;
     text-align: center;
+    max-width: 100%;
+    height: auto;
 }
 
 .cab ul {
@@ -45,7 +59,7 @@ header{
     border-color: black;
     margin-left: auto;
     margin-right: auto; 
-}
+  }
 
 .cab li img{
     height: 169px;
@@ -230,5 +244,15 @@ li a:hover:not(.ativo-h, .ativo-i, .ativo-s){
     font-weight: bold;
     padding: 3px 3px 3px 20px;
     background-color: rgb(245, 192, 67, 0.7);
+}
+
+/*EXPLICAÇAO*/
+
+#explicacao{
+    font-size: 20px;
+}
+
+.titulo-explicacao{
+    text-align: center;
 }
 
