@@ -15,19 +15,34 @@
 <body>
 
     <!--Início container-pai-->
-    <div class="container-pai"> 
-    <header>
-        <div class="cab"> <!--Cabeçalho INICIO-->
-            <header>
-                <ul id="links_cabeçalho" class="cab">
-                    <li class="cab"><img src="css/img/elementos/log_01.png" alt="" id="logo_cab"></li>
-                    <li class="cab"><a href="index.html" id="link_home">Home</a></li>
-                    <li class="cab"><a href="#" id="link_info" class="ativo-i">Informativo</a></li>
-                    <li class="cab"><a href="sobre.html" id="link_sobre">Sobre nós</a></li>
-                </ul>
-        </div> <!--Cabeçalho INICIO-->
-    </header>
-    <div> <!--EXPLICAÇÕES TÉCNICAS INICIO-->
+    <div class="container-fluid"> 
+
+    <!-- Início Cabeçalho -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid justify-content-center">
+          <div class="navbar-brand" href="#"><img class="img-fluid logo" src="css/img/elementos/log_01.png" alt="logo" width="120" height="120"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0 justify-content-center" id="navbarNav">
+            <ul class="navbar-nav cab">
+              <li class="nav-item">
+                <a class="nav-link" id="link_home" aria-current="page" href="index.html"><h3>Home</h3></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  ativo-i" id="link_info" href="explicacao.html"><h3>Informativo</h3></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="link_sobre" href="sobre.html"><h3>Sobre nós</h3></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Fim Cabeçalho -->
+
+    <!-- Início informativo --> 
+    <div>
         <h1 style="text-align: center;">Explicações técnicas</h1>
         <div id="explicacao">
             <p style="text-align: center;">O processo de personalização é feito em 3 modelos: o <span
@@ -49,7 +64,7 @@
         </div>
         <div style="clear: both;"></div>
     </div>
-    <!--EXPLICAÇÕES TÉCNICAS FIM-->
+    <!-- Fim informativo--> 
 
 
     <div>
@@ -82,6 +97,8 @@
 
     </div>
     <!--Fim container-pai-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>

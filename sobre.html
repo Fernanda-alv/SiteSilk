@@ -12,20 +12,34 @@
 
     <body>
 
-    <!--Início container-pai-->
-    <div class="container-pai"> 
+    <!-- Início container-pai -->
+    <div class="container-fluid"> 
 
-      <header>
-        <div class="cab"> <!--Cabeçalho INICIO-->
-          <ul id="links_cabeçalho" class="cab">
-            <li class="cab"><img src="css/img/elementos/log_01.png" alt="" id="logo_cab"></li>
-              <li class="cab"><a href="index.html" id="link_home">Home</a></li>
-              <li class="cab"><a href="explicacao.html" id="link_info">Informativo</a></li>
-              <li class="cab"><a href="#" id="link_sobre" class="ativo-s">Sobre nós</a></li>
+    <!-- Início Cabeçalho -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid justify-content-center">
+        <div class="navbar-brand" href="#"><img class="img-fluid logo" src="css/img/elementos/log_01.png" alt="logo" width="120" height="120"></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0 justify-content-center" id="navbarNav">
+          <ul class="navbar-nav cab">
+            <li class="nav-item">
+              <a class="nav-link" id="link_home" aria-current="page" href="index.html"><h3>Home</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link_info" href="explicacao.html"><h3>Informativo</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ativo-s" id="link_sobre" href="sobre.html"><h3>Sobre nós</h3></a>
+            </li>
           </ul>
-      </div> <!--Cabeçalho INICIO-->
-  </header>
-        <div> <!--texto + imagem 1--> 
+        </div>
+      </div>
+    </nav>
+    <!-- Fim Cabeçalho -->
+
+        <div> <!-- texto + imagem 1 --> 
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
@@ -41,33 +55,12 @@
                 </div>
               </div>
         </div>
-        <div> <!--carrossel-->
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
+        
 
     </div>
-    <!--Fim container-pai-->
+    <!-- Fim container-pai -->
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 
 </html>
