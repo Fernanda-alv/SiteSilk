@@ -219,9 +219,9 @@ body{
 .card-img-top {
     border: 3px solid #a47d6a;
     border-radius: 2vw;
-    height: 22vw;
+    height: 22rem;
     width: auto;
-    object-fit: scale-down !important;
+    object-fit: scale-down;
 }
 
 .card {
@@ -251,6 +251,8 @@ body{
     align-items: center;
 }
 .card-carrossel img {
+    width: 100%;
+    height: auto;
     object-fit: scale-down !important;
 }
 
