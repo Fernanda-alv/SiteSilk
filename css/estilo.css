@@ -219,6 +219,9 @@ body{
 .card-img-top {
     border: 3px solid #a47d6a;
     border-radius: 2vw;
+    height: 22vw;
+    width: auto;
+    object-fit: scale-down !important;
 }
 
 .card {
@@ -226,6 +229,29 @@ body{
     padding: 20px !important;
     margin: 20px !important;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    height: 34rem;
+}
+
+.card-atacado {
+    border-radius: 2vw;
+    padding: 20px !important;
+    margin: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.card-atacado .card-img-top{
+    border-radius: 2vw;
+}
+
+.card-carrossel {
+    overflow: hidden;
+    height: 28rem;
+    padding: 20px !important;
+    justify-content: center;
+    align-items: center;
+}
+.card-carrossel img {
+    object-fit: scale-down !important;
 }
 
 
@@ -244,6 +270,7 @@ body{
 
 /* Botão ver-tudo */
 .ver-mais {
+    margin-top: -6vw !important;
     margin-bottom: 8vw !important;
 }
 
@@ -258,6 +285,7 @@ body{
     border-radius: 18px;
     color: #38879F;
     text-shadow: 1px 1px black;
+    position: relative;
 }
 
 .ver-mais button:hover {
