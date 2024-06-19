@@ -10,7 +10,6 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(255, 255, 235);
     min-width: 375px !important;
-    height: 100vh !important;
 }
 
 /* UTILITARIOS */
@@ -510,7 +509,13 @@ body{
     font-size: 1.5vw !important;
     font-weight: bolder;
     padding-top: 1vw !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    font-size: 1.5vw !important;
+    text-align: center;
+    border-bottom: 1px dashed #ccc;
 }
+
 
 .turma-perfil {
     display: flex;
@@ -528,7 +533,6 @@ body{
     margin-left: 30px !important;
     border-left: 1px dashed #ccc;
     padding-left: 25px !important;
-    font-size: 2vw !important;
     font-weight: bolder;
     font-size: 3vw !important;
 }
