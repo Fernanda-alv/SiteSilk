@@ -1,98 +1,200 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="shortcut icon" type="image/x-icon" href="css/img/elementos/log_01.ico"/>
+  <title>Sobre nós</title>
+</head>
+<body>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sobre Nós</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style1.css">
-        <link rel="shortcut icon" type="image/x-icon" href="css/img/elementos/log_01.ico"/>
-      </head>
+  <!-- Início container-pai -->
+  <div class="container-fluid">
 
-    <body>
-      <header>
-        <div class="cab"> <!--Cabeçalho INICIO-->
-          <ul id="links_cabeçalho" class="cab">
-              <li class="cab"><img src="img/log_01.png" alt="" id="logo_cab"></li>
-              <li class="cab"><a href="index.html" id="link_home">Home</a></li>
-              <li class="cab"><a href="Explicacao.html" id="link_info">Informativo</a></li>
-              <li class="cab"><a href="#" id="link_sobre" class="ativo-s">Sobre nós</a></li>
+    <!-- Início Cabeçalho -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid justify-content-center">
+        <div class="navbar-brand" href="#">
+          <img class="img-fluid logo" src="css/img/elementos/log_01.png" alt="logo" width="140" height="140">
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0 justify-content-center" id="navbarNav">
+          <ul class="navbar-nav cab">
+            <li class="nav-item">
+              <a class="nav-link" id="link_home" aria-current="page" href="index.html"><h3>Home</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link_info" href="explicacao.html"><h3>Informativo</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ativo-s" id="link_sobre" href="sobre.html"><h3>Sobre nós</h3></a>
+            </li>
           </ul>
-      </div> <!--Cabeçalho INICIO-->
-  </header>
-        <div> <!--texto + imagem 1--> 
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="..." class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Um pouco sobre nós!</h5>
-                      <p class="card-text">Uma empresa familiar de personalização de camisetas localizada na Rua Pau Brasil nº 82 Morada do Sol</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
         </div>
-        <div> <!--carrossel-->
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/imgCard1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
-        <div> <!--texto + imagem 2--> 
-          <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img/imgCard2.jpg" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Serviços Prestados</h5>
-                    <p class="card-text"> Nos principais serviços são terceirizados, ou seja, fazemos a estapa para uniformes de outras empresas, mas também vendemos a personalização.A empresa começou apenas com o silk,  expandindo posteriormente para l transfer digital e dtf</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
       </div>
-    </body>
-    <div> <!--texto + imagem 2--> 
-      <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="css/img/elementos/imgAndrade.jpg" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Gabriel ANdrade Silva</h5>
-                <p class="card-text">Técnico em eletrotécnica pelo Instituto Federal de Ciência e Tecnologia do Triângulo Mineiro Campus Patos de Minas. Cursando Sistemas de Informação no Centro Universitário de Patos de Minas Unipam. </p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </nav>
+    <!-- Fim Cabeçalho -->
+
+
+    <div class="explicacao">
+      <h1 style="text-align: center;"><span class="subtitulo-azul">O que é</span> a Casa Silk?</h1>
+      <h5 style="text-align: center;">A Casa do Silk é uma loja de personalização de roupas localizada na Rua Pau Brasil nº 82, Morada do Sol, em Patos de Minas. Somos uma empresa familiar dedicada a transformar camisetas em verdadeiras obras de arte personalizadas.</h5>
+    </div>
+
+    <div class="espacamento"></div>
+
+    <div class="explicacao">
+      <h1 style="text-align: center;"><span class="subtitulo-magenta">Qual a história</span> por trás do logo?</h1>
+      <div class="tabela"><img class="img-fluid" src="css/img/elementos/log_01.png" alt="" width="300"></div>
+      <h5 style="text-align: center;">O logo da Casal do Silk foi feito pensando numa identidade visual leve, colorida e fluida, onde as cores prevalescentes são o 
+        <span class="palavra-azul">Ciano, </span>o
+        <span class="palavra-magenta"> Magenta </span>e o
+        <span class="palavra-amarela"> Amarelo</span>.
+        As cores escolhidas são originalmente de uma tonalidade muito forte, o que pode ser cansativo se visto por muito tempo. Por causa disso, foi criado uma paleta de cores mais amena e agradável. O desenho do logo é de uma casa 2D vista de frente, com um rodo de silk (ferramenta usada na personalização) posicionado em cima do telhado. O desenho da casa se conecta com o nome "Casa do Silk", e o rodo, com a parte de personalização das roupas.
+      </h5>
+    </div>
+
+    <div class="espacamento"></div>
+
+    <div class="explicacao">
+      <h1 style="text-align: center;"><span class="subtitulo-amarelo">Qual o objetivo</span> da Casa do Silk?</h1>
+      <h5 style="text-align: center;">Nosso compromisso é oferecer não apenas camisetas, mas peças únicas que refletem estilo e qualidade. Utilizamos técnicas avançadas de personalização para garantir durabilidade e acabamento impecável em cada detalhe. Na Casa do Silk, cada pedido é uma oportunidade para superar expectativas, criando peças que não apenas vestem bem, mas também contam histórias. Explore nossas técnicas de customização e descubra como podemos transformar suas ideias em realidade! Visite-nos pessoalmente ou explore nosso site para iniciar sua jornada de estilo conosco.</h5>
+    </div>
+
+    <div class="espacamento"></div>
+
+    <div id="texto-amostras">
+      <div class="d-flex justify-content-center">
+        <h1>
+          <span class="palavra-azul sombra-amarela">Conheça</span>
+          <span class="palavra-magenta sombra-azul"> os</span>
+          <span class="palavra-amarela sombra-magenta"> desenvolvedores!</span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="espacamento"></div>
+
+    <!-- Início conheça os desenvolvedores -->
+
+    <div class="container-fluid">
+      <div class="row justify-content-start">
+        <div class="col-md-6 col-12 offset-6">
+          <div class="perfil-esquerda">
+            <div>
+              <img class="img-fluid imagem-perfil" src="css/img/perfil/andrade.jpg" alt="" width="200">
+              <div class="nome-perfil">
+                Gabriel Andrade
+              </div>
+              <div class="turma-perfil">
+                Turma: 1A
               </div>
             </div>
+            <div class="legenda-perfil">
+              Lorota Ipsum
+            </div>
+
           </div>
         </div>
-  </div>
-</body>
+      </div>
+    </div>
 
+    <div class="container-fluid">
+      <div class="row justify-content-end">
+        <div class="col-md-6 col-12">
+          <div class="perfil-direita">
+            <div>
+              <img class="img-fluid imagem-perfil" src="css/img/perfil/mateus-x.jpg" alt="" width="200">
+              <div class="nome-perfil">
+                Mateus Xavier
+              </div>
+              <div class="turma-perfil">
+                Turma: 1A
+              </div>
+            </div>
+            <div class="legenda-perfil">
+              Quebra a cara e aprende
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="row justify-content-start">
+        <div class="col-md-6 col-12 offset-6">
+          <div class="perfil-esquerda">
+            <div>
+              <img class="img-fluid imagem-perfil" src="css/img/perfil/fernanda.jpg" alt="" width="200">
+              <div class="nome-perfil">
+                Fernanda Raquel
+              </div>
+              <div class="turma-perfil">
+                Turma: 1A
+              </div>
+            </div>
+            <div class="legenda-perfil">
+              No final vai dar tudo certo, é só confiar!
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="row justify-content-end">
+        <div class="col-md-6 col-12">
+          <div class="perfil-direita">
+            <div>
+              <img class="img-fluid imagem-perfil" src="css/img/perfil/matheus_h.jpg" alt="" width="200">
+              <div class="nome-perfil">
+                Matheus Hitalo
+              </div>
+              <div class="turma-perfil">
+                Turma: 1A
+              </div>
+            </div>
+            <div class="legenda-perfil">
+              Innerbloom ▷ 5:46 
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Início conheça os desenvolvedores -->
+
+
+    <!-- Contatos INICIO -->
+    <div class="rodape">
+      <div class="contatos">
+        <h6>Contatos:</h6>
+      </div>
+      <div class="instagram">
+        <h6><a href="https://www.instagram.com/casadosilk/" target="_blank">@casadosilk</a></h6>
+      </div>
+      <div class="celular">
+        <h6>+55 (34) 9 3825-1913</h6>
+      </div>
+    </div>
+    <!-- Contatos FIM -->
+
+
+  </div>
+  <!-- Fim container-pai -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
