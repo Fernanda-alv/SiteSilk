@@ -1,2 +1,2 @@
-# ProgramaSilk
-Projeto Desenvolvido por alunos para a matéria de Projetos Práticos em Tecnologia da Informação, curso Sistemas de Informação, UNIPAM.
+# SiteSilk
+Projeto desenvolvido por alunos do 1º período do curso de Sistemas de Informação, para a disciplina de Projetos Práticos em Tecnologia da Informação, UNIPAM, 2024.
