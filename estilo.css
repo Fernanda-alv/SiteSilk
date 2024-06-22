@@ -536,3 +536,7 @@ body{
     font-weight: bolder;
     font-size: 3vw !important;
 }
+.borda{
+    border-radius: 2vw;
+
+}
